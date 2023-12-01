@@ -1,0 +1,85 @@
+class Assignment
+{
+	static void triangle()
+	{
+		int b=5;
+		int h=7;
+		double res1=0.5*b*h;
+		System.out.println(res1);
+	}
+	static void rectangle()
+	{
+		int w=10;
+		int h=5;
+		int res2=w*h;
+		System.out.println(res2);
+	}
+	static void trapezoid()
+	{
+		int a=10;
+		int b=18;
+		int h=5
+		double res3=0.5*(a+b)*h;
+		System.out.println(res3);
+	}
+	static void ellipse()
+	{
+		int a=5;
+		int b=5;
+		final double pi=3.142;
+		double res4=pi*a*b;
+		System.out.println(res4);
+	}
+	static void square()
+	{
+		int a=5;
+		int res5=a*a;
+		System.out.println(res5);
+	}
+	static void parallelogram()
+	{
+		int b=10;
+		int h=5;
+		int res6=b*h;
+		System.out.println(res6);
+	}
+	static void circle()
+	{
+		int r=5;
+		final double pi=3.142;
+		double res7=pi*r*r;
+		System.out.println(res7);
+	}
+	static void sector()
+	{
+		int r=5;
+		double t=30.5;
+		double res8=0.5*r*r*t;
+		System.out.println(res8);
+	}
+
+}
+class Result_1
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Triangle");
+		Assignment.triangle();
+		System.out.println("Rectangle");
+		Assignment.rectangle();
+		System.out.println("Trapezoid");
+		Assignment.trapezoid();
+		System.out.println("Ellipse");
+		Assignment.ellipse();
+		System.out.println("Square");
+		Assignment.square();
+		System.out.println("Parallelogram");
+		Assignment.parallelogram();
+		System.out.println("Circle");
+		Assignment.circle();
+		System.out.println("Sector");
+		Assignment.sector();
+
+
+	}
+}
