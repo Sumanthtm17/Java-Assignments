@@ -1,0 +1,25 @@
+class Tv
+{
+	int tvcost;
+	String tvbrand;
+	String tvtype;
+	
+	Tv(int a,String b,String c)
+	{
+		tvcost=a;
+	    tvbrand=b;
+	    tvtype=c;
+	    return;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("TV Details");
+		Tv tv=new Tv(100000,"L G","OLED");
+			
+			System.out.println("Mobile color is"+tv.tvcost);
+		    System.out.println("Mobile color is"+tv.tvbrand);
+		    System.out.println("Mobile color is"+tv.tvtype);
+			System.out.println( );
+
+	}
+}
