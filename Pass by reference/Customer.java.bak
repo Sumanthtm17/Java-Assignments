@@ -1,0 +1,24 @@
+class Amazon
+{
+    void product()
+    {
+        System.out.println("Amazon Product");
+    }
+}
+
+class Ekart
+{
+    static void delivery(Amazon a2)
+    {
+        System.out.println(Amazon a2); 
+    }
+}
+
+class Customer
+{
+    public static void main(String[] args)
+    {
+        Amazon a1 = new Amazon(); 
+        Ekart.delivery(a1);
+    }
+}

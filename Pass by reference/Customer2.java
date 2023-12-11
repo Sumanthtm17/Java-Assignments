@@ -1,0 +1,23 @@
+class Myntra 
+{
+	void Clothes()
+	{
+		System.out.println("Clothes shopping");
+	}
+}
+class Ekart
+{
+	static void Delivery( Myntra m2)
+	{
+		m2.Clothes();
+	}
+}
+class Customer2
+{
+	public static void main(String[] args) 
+	{
+		Myntra m1=new Myntra();
+		Ekart.Delivery(m1);
+		
+	}
+}
